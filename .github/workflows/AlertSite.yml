@@ -12,3 +12,6 @@ jobs:
     steps:
       - name: Print Alertsite Scripting completed
         run: echo "---Alertsite script completed---"
+
+      - name: "Print current date"
+        run: echo "Current date is $(date)"
