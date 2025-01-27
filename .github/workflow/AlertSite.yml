@@ -1,0 +1,14 @@
+name: "Alertsite script"
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  Alertsite:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Print Alertsite Scripting completed
+        run: echo "---Alertsite script completed---"
